@@ -1,9 +1,9 @@
 {
   "name": "birthday-app-react",
   "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "",
