@@ -9,7 +9,7 @@ import Party from "./components/Party";
 import Wishes from "./components/Wishes";
 import { Outlet } from "react-router-dom";
 import Timer from "./components/Timer";
-import GPL from "./components/GPL";
+import Album from "./components/Album";
 
 
 
@@ -40,8 +40,8 @@ const appRouter =createBrowserRouter([
            {path:"/",
             element:<Timer/> 
            },
-           {path:"/gpl",
-            element:<GPL/> 
+           {path:"/album",
+            element:<Album/> 
            }
     ],
 }

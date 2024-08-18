@@ -95,6 +95,7 @@ const Quiz = () => {
     };
   
     return (
+      <div className="quiz-wrapper">
       <div className="quiz-container">
         {isQuizFinished ? (
           <div className="quiz-result">
@@ -106,7 +107,7 @@ const Quiz = () => {
               <div className="party-container">
                 <h3>🎉 You deserve a party! 🎉</h3>
                 <a href="https://www.zomato.com" target="_blank" rel="noopener noreferrer" className="zomato-button">
-                  Order from Zomato
+                  Order 
                 </a>
               </div>
             )}
@@ -128,7 +129,7 @@ const Quiz = () => {
             </div>
           </div>
         )}
-      </div>
+      </div></div>
     );
   };
   
