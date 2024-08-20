@@ -55,7 +55,7 @@ const styles = {
   container: {
     position: 'relative',
     width: '98vw',
-    height: '87vh',
+    height: '100vh',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

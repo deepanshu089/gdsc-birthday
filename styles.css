@@ -59,8 +59,8 @@
   }
   .countdown-body{
     width:98vw;
-    height:82.5vh;
-    background-image: url(./utils/timer6.jpg);
+    height:75vh;
+    background-image: url(./utils/gold.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
@@ -660,7 +660,7 @@
   .gift-cover {
     width: 500px;
     height: 400px;
-    background: url(./utils/bg1.jpg);
+    background: url(./utils/gift-cover.avif);
     margin: 0 auto;
     border: 6px solid white;
     border-radius: 10px;
@@ -680,7 +680,7 @@
   }
   
   .genius-gif:hover {
-    /* background: url(images/You.webp); */
+    background: url(./utils/grid.jpg);
     background-size: cover;
     background-position: center;
   }
