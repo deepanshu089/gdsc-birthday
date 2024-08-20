@@ -4,8 +4,8 @@ import chirag from "./chirag.jpg"
 const Album = () => {
 
   return (
-        <>
-          {/* <div className="header" id="birthdayHeader"> */}
+        <div className='albumbody'>
+          
             <h1 id="birthdayName">Today is Chirag's Birthday</h1>
             {chirag && (
               <img
@@ -19,7 +19,7 @@ const Album = () => {
             <h4 className="date" id="birthdayDate">
               Born on: 667
             </h4>
-          {/* </div> */}
+          
 
           <div className="gift-section">
             <h2 className="gift-title">
@@ -38,7 +38,7 @@ const Album = () => {
 
           <div className="gift-section">
             <h2 className="gift-title">
-              If I had to describe you with ONE word 👇
+              You and Me 👇
             </h2>
             <div className="genius-gif gift-cover"></div>
           </div>
@@ -57,7 +57,7 @@ const Album = () => {
 
 
           <audio id="birthdayAudio" src="./hbd.mp3" preload="auto"></audio>
-        </>)}
+        </div>)}
    
   
 

@@ -668,25 +668,25 @@
   }
   
   .happy-gif:hover {
-    /* background: url(images/OtherYou.webp); */
+    background: url(./utils/excited-minions-gif.gif);
     background-size: cover;
     background-position: center;
   }
   
   .respect-gif:hover {
-    /* background: url(images/respect.gif); */
+    background: url(./utils/respect-bro-respect.gif);
     background-size: cover;
     background-position: center;
   }
   
   .genius-gif:hover {
-    background: url(./utils/grid.jpg);
+    background: url(./utils/respect-fist-bump.gif);
     background-size: cover;
     background-position: center;
   }
   
   .goat-gif:hover {
-    /* background: url(images/darkness.gif); */
+    background: url(./utils/johnnysins-johnny.gif);
     background-size: cover;
     background-position: center;
   }
@@ -697,7 +697,7 @@
   }
   
   .cheers-gif:hover {
-    /* background: url(images/cheers.gif); */
+    background: url(./utils/images.jpeg);
     background-size: cover;
     background-position: center;
   }
@@ -709,6 +709,11 @@
   
   .footer a {
     color: white;
+  }
+
+  .albumbody{
+    
+    
   }
   
 
