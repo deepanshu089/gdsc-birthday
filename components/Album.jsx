@@ -17,7 +17,7 @@ const Album = () => {
             )}
             <h2 className="age" id="birthdayAge">18 years old</h2>
             <h4 className="date" id="birthdayDate">
-              Born on: 667
+              Born on: 24 August 2005
             </h4>
           
 
